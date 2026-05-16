@@ -4,9 +4,15 @@ const path = require('path');
 const fs = require('fs');
 const seedData = require('./seed.json');
 
-const dbPath = process.env.DB_PATH || './database/advocate.db';
+let dbPath = process.env.DB_PATH || './database/advocate.db';
 const dbDir = path.dirname(dbPath);
-if (!fs.existsSync(dbDir)) fs.mkdirSync(dbDir, { recursive: true });
+try {
+    if (!fs.existsSync(dbDir)) fs.mkdirSync(dbDir, { recursive: true });
+} catch (e) {
+    console.warn('Cannot create DB directory, falling back to ./database/advocate.db');
+    dbPath = './database/advocate.db';
+    if (!fs.existsSync('./database')) fs.mkdirSync('./database', { recursive: true });
+}
 
 const db = new sqlite3.Database(dbPath);
 
