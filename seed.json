@@ -1,0 +1,1009 @@
+﻿{
+    "blogs":  [
+                  {
+                      "id":  5,
+                      "title":  "New Joinner",
+                      "content":  "Business Analyst Ish is here.",
+                      "image":  null,
+                      "author":  "Ish",
+                      "created_at":  "2026-05-10 09:49:52"
+                  }
+              ],
+    "team_members":  [
+                         {
+                             "id":  1,
+                             "name":  "Ish",
+                             "position":  "Business Analyst",
+                             "description":  "Researcher and vibe coder specialised in Data analysis.",
+                             "image":  "/images/1778317098260-568569554.png",
+                             "sort_order":  0,
+                             "created_at":  "2026-05-09 08:58:18"
+                         }
+                     ],
+    "announcements":  [
+
+                      ],
+    "website_content":  [
+                            {
+                                "id":  9,
+                                "page":  "footer",
+                                "section":  "address",
+                                "content_type":  "text",
+                                "content":  "Chamber No. 604, IIIrd Floor, Western Wing, Tis Hazari Courts, New Delhi-110054",
+                                "image":  null,
+                                "updated_at":  "2026-05-08 14:14:42"
+                            },
+                            {
+                                "id":  10,
+                                "page":  "footer",
+                                "section":  "email",
+                                "content_type":  "text",
+                                "content":  "advamitkumar15@gmail.com",
+                                "image":  null,
+                                "updated_at":  "2026-05-08 14:14:42"
+                            },
+                            {
+                                "id":  11,
+                                "page":  "footer",
+                                "section":  "phone",
+                                "content_type":  "text",
+                                "content":  "+91-8810658406",
+                                "image":  null,
+                                "updated_at":  "2026-05-08 14:14:42"
+                            },
+                            {
+                                "id":  12,
+                                "page":  "footer",
+                                "section":  "hours",
+                                "content_type":  "text",
+                                "content":  "Monday to Friday 09:00 AM- 06:00 PM, Saturday 09:00 AM- 04:00 PM",
+                                "image":  null,
+                                "updated_at":  "2026-05-08 14:14:42"
+                            },
+                            {
+                                "id":  14,
+                                "page":  "about",
+                                "section":  "image",
+                                "content_type":  "image",
+                                "content":  "",
+                                "image":  "/images/1778961621224-580088818.jpeg",
+                                "updated_at":  "2026-05-16 20:00:21"
+                            },
+                            {
+                                "id":  15,
+                                "page":  "about",
+                                "section":  "mission-text",
+                                "content_type":  "text",
+                                "content":  "Our mission is to provide strategic, ethical, and client-focused legal solutions through proactive guidance, strong advocacy, and dependable representation, ensuring the protection of our clients’ interests with integrity and excellence.",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:57:28"
+                            },
+                            {
+                                "id":  16,
+                                "page":  "about",
+                                "section":  "expertise-title-1",
+                                "content_type":  "text",
+                                "content":  "7+ Years of experience",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 08:29:33"
+                            },
+                            {
+                                "id":  17,
+                                "page":  "about",
+                                "section":  "expertise-desc-1",
+                                "content_type":  "text",
+                                "content":  "Experienced Court Representation",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 08:29:33"
+                            },
+                            {
+                                "id":  18,
+                                "page":  "about",
+                                "section":  "expertise-title-2",
+                                "content_type":  "text",
+                                "content":  "Strategic Planning",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 08:29:33"
+                            },
+                            {
+                                "id":  19,
+                                "page":  "about",
+                                "section":  "expertise-desc-2",
+                                "content_type":  "text",
+                                "content":  "Goal-Focused Legal Planning",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 08:29:33"
+                            },
+                            {
+                                "id":  20,
+                                "page":  "about",
+                                "section":  "expertise-title-3",
+                                "content_type":  "text",
+                                "content":  "Specialized Focus",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 08:29:33"
+                            },
+                            {
+                                "id":  21,
+                                "page":  "about",
+                                "section":  "expertise-desc-3",
+                                "content_type":  "text",
+                                "content":  "NDPS, Criminal \u0026amp; Cyber law etc...",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 08:29:33"
+                            },
+                            {
+                                "id":  22,
+                                "page":  "about",
+                                "section":  "expertise-title-4",
+                                "content_type":  "text",
+                                "content":  "Bar Recognition",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 08:29:33"
+                            },
+                            {
+                                "id":  23,
+                                "page":  "about",
+                                "section":  "expertise-desc-4",
+                                "content_type":  "text",
+                                "content":  "Licensed Legal Professional",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 08:29:33"
+                            },
+                            {
+                                "id":  24,
+                                "page":  "home",
+                                "section":  "test",
+                                "content_type":  "text",
+                                "content":  "Testing",
+                                "image":  "/images/1778322519996-92241316.png",
+                                "updated_at":  "2026-05-09 10:28:40"
+                            },
+                            {
+                                "id":  25,
+                                "page":  "home",
+                                "section":  "about-image",
+                                "content_type":  "image",
+                                "content":  "https://media.licdn.com/dms/image/v2/D4E03AQH40bMTT2whIg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715779512296?e=1780531200\u0026v=beta\u0026t=UqIQc09HwJDtnKR5u1UAtltzpxKHPuk1ygHpXnpSDMw",
+                                "image":  "/images/1778961593915-457060579.jpeg",
+                                "updated_at":  "2026-05-16 19:59:53"
+                            },
+                            {
+                                "id":  26,
+                                "page":  null,
+                                "section":  null,
+                                "content_type":  null,
+                                "content":  "",
+                                "image":  null,
+                                "updated_at":  "2026-05-09 10:51:38"
+                            },
+                            {
+                                "id":  27,
+                                "page":  null,
+                                "section":  null,
+                                "content_type":  null,
+                                "content":  "",
+                                "image":  null,
+                                "updated_at":  "2026-05-09 10:51:38"
+                            },
+                            {
+                                "id":  28,
+                                "page":  "home",
+                                "section":  "firm-para1",
+                                "content_type":  "text",
+                                "content":  "With over 2 Years of experience, Dejure Law Office provides comprehensive legal services tailored to the nuances of your case. Our commitment to justice and client satisfaction defines our practice.",
+                                "image":  null,
+                                "updated_at":  "2026-05-09 10:57:46"
+                            },
+                            {
+                                "id":  29,
+                                "page":  null,
+                                "section":  null,
+                                "content_type":  null,
+                                "content":  "",
+                                "image":  null,
+                                "updated_at":  "2026-05-09 10:51:38"
+                            },
+                            {
+                                "id":  30,
+                                "page":  null,
+                                "section":  null,
+                                "content_type":  null,
+                                "content":  "",
+                                "image":  null,
+                                "updated_at":  "2026-05-09 10:51:38"
+                            },
+                            {
+                                "id":  31,
+                                "page":  null,
+                                "section":  null,
+                                "content_type":  null,
+                                "content":  "",
+                                "image":  null,
+                                "updated_at":  "2026-05-09 10:51:38"
+                            },
+                            {
+                                "id":  32,
+                                "page":  "home",
+                                "section":  "firm-tagline",
+                                "content_type":  "text",
+                                "content":  "The Firm",
+                                "image":  null,
+                                "updated_at":  "2026-05-09 10:57:46"
+                            },
+                            {
+                                "id":  33,
+                                "page":  "home",
+                                "section":  "firm-title",
+                                "content_type":  "text",
+                                "content":  "A Legacy of Legal Excellence",
+                                "image":  null,
+                                "updated_at":  "2026-05-09 10:57:46"
+                            },
+                            {
+                                "id":  34,
+                                "page":  "home",
+                                "section":  "firm-bullet1",
+                                "content_type":  "text",
+                                "content":  "Recognized by State Bar Association",
+                                "image":  null,
+                                "updated_at":  "2026-05-09 10:57:46"
+                            },
+                            {
+                                "id":  35,
+                                "page":  "home",
+                                "section":  "firm-bullet2",
+                                "content_type":  "text",
+                                "content":  "",
+                                "image":  null,
+                                "updated_at":  "2026-05-09 10:57:46"
+                            },
+                            {
+                                "id":  36,
+                                "page":  "home",
+                                "section":  "firm-bullet3",
+                                "content_type":  "text",
+                                "content":  "Specialized in Corporate, Civil and Income Tax Law",
+                                "image":  null,
+                                "updated_at":  "2026-05-09 10:57:46"
+                            },
+                            {
+                                "id":  37,
+                                "page":  "home",
+                                "section":  "hero-tagline",
+                                "content_type":  "text",
+                                "content":  "Excellence in Legal Advocacy",
+                                "image":  null,
+                                "updated_at":  "2026-05-09 11:00:48"
+                            },
+                            {
+                                "id":  38,
+                                "page":  "home",
+                                "section":  "hero-title-1",
+                                "content_type":  "text",
+                                "content":  "Clarity. Strategy.",
+                                "image":  null,
+                                "updated_at":  "2026-05-09 11:00:48"
+                            },
+                            {
+                                "id":  39,
+                                "page":  "home",
+                                "section":  "hero-title-2",
+                                "content_type":  "text",
+                                "content":  "Resolution.",
+                                "image":  null,
+                                "updated_at":  "2026-05-09 11:00:48"
+                            },
+                            {
+                                "id":  40,
+                                "page":  "home",
+                                "section":  "hero-subtitle",
+                                "content_type":  "text",
+                                "content":  "Providing exceptional legal representation with integrity and dedication...",
+                                "image":  null,
+                                "updated_at":  "2026-05-09 11:00:48"
+                            },
+                            {
+                                "id":  44,
+                                "page":  "contact",
+                                "section":  "tagline",
+                                "content_type":  "text",
+                                "content":  "Get in touch with our legal team.",
+                                "image":  null,
+                                "updated_at":  "2026-05-10 09:39:19"
+                            },
+                            {
+                                "id":  45,
+                                "page":  "contact",
+                                "section":  "office-name",
+                                "content_type":  "text",
+                                "content":  "Main office - New Delhi",
+                                "image":  null,
+                                "updated_at":  "2026-05-10 11:38:29"
+                            },
+                            {
+                                "id":  46,
+                                "page":  "contact",
+                                "section":  "office-address-1",
+                                "content_type":  "text",
+                                "content":  "Chamber No. 604, IIIrd Floor, Western Wing, Tis Hazari Courts",
+                                "image":  null,
+                                "updated_at":  "2026-05-10 11:38:29"
+                            },
+                            {
+                                "id":  47,
+                                "page":  "contact",
+                                "section":  "office-address-2",
+                                "content_type":  "text",
+                                "content":  "New Delhi-110054",
+                                "image":  null,
+                                "updated_at":  "2026-05-10 11:38:29"
+                            },
+                            {
+                                "id":  48,
+                                "page":  "contact",
+                                "section":  "phone-main",
+                                "content_type":  "text",
+                                "content":  "+91-8810658406",
+                                "image":  null,
+                                "updated_at":  "2026-05-10 11:38:29"
+                            },
+                            {
+                                "id":  49,
+                                "page":  "contact",
+                                "section":  "phone-alt",
+                                "content_type":  "text",
+                                "content":  "",
+                                "image":  null,
+                                "updated_at":  "2026-05-10 10:46:36"
+                            },
+                            {
+                                "id":  50,
+                                "page":  "contact",
+                                "section":  "phone-emergency",
+                                "content_type":  "text",
+                                "content":  "",
+                                "image":  null,
+                                "updated_at":  "2026-05-10 10:46:36"
+                            },
+                            {
+                                "id":  51,
+                                "page":  "contact",
+                                "section":  "email-primary",
+                                "content_type":  "text",
+                                "content":  "advamitkumar15@gmail.com",
+                                "image":  null,
+                                "updated_at":  "2026-05-10 11:38:29"
+                            },
+                            {
+                                "id":  52,
+                                "page":  "contact",
+                                "section":  "email-secondary",
+                                "content_type":  "text",
+                                "content":  "",
+                                "image":  null,
+                                "updated_at":  "2026-05-10 10:46:36"
+                            },
+                            {
+                                "id":  53,
+                                "page":  "contact",
+                                "section":  "hours-weekday",
+                                "content_type":  "text",
+                                "content":  "09:00 AM- 06:00 PM",
+                                "image":  null,
+                                "updated_at":  "2026-05-10 11:38:29"
+                            },
+                            {
+                                "id":  54,
+                                "page":  "contact",
+                                "section":  "hours-saturday",
+                                "content_type":  "text",
+                                "content":  "09:00 AM- 04:00 PM",
+                                "image":  null,
+                                "updated_at":  "2026-05-10 11:38:29"
+                            },
+                            {
+                                "id":  55,
+                                "page":  "contact",
+                                "section":  "hours-sunday",
+                                "content_type":  "text",
+                                "content":  "Closed",
+                                "image":  null,
+                                "updated_at":  "2026-05-10 11:38:29"
+                            },
+                            {
+                                "id":  56,
+                                "page":  "contact",
+                                "section":  "branch-1-city",
+                                "content_type":  "text",
+                                "content":  "New Delhi",
+                                "image":  null,
+                                "updated_at":  "2026-05-10 11:05:42"
+                            },
+                            {
+                                "id":  57,
+                                "page":  "contact",
+                                "section":  "branch-1-phone",
+                                "content_type":  "text",
+                                "content":  "+91-8810658406",
+                                "image":  null,
+                                "updated_at":  "2026-05-10 11:05:42"
+                            },
+                            {
+                                "id":  58,
+                                "page":  "contact",
+                                "section":  "cta-phone",
+                                "content_type":  "text",
+                                "content":  "+91-8810658406",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 07:06:50"
+                            },
+                            {
+                                "id":  59,
+                                "page":  "booking",
+                                "section":  "cta-phone",
+                                "content_type":  "text",
+                                "content":  "+91-8810658406",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 07:19:00"
+                            },
+                            {
+                                "id":  60,
+                                "page":  "booking",
+                                "section":  "direct-phone",
+                                "content_type":  "text",
+                                "content":  "+91-8810658406",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 07:19:24"
+                            },
+                            {
+                                "id":  61,
+                                "page":  "about",
+                                "section":  "story-title",
+                                "content_type":  "text",
+                                "content":  "A Legacy of Legal Excellence",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:55:33"
+                            },
+                            {
+                                "id":  62,
+                                "page":  "about",
+                                "section":  "story-para1",
+                                "content_type":  "text",
+                                "content":  "Amit Kumar is a law professional with more than 7 years of experience in dynamic environments with adaptability to the ever-changing demands of the legal field. Optimistic and confident in the courtroom, leveraging excellent argumentation techniques that boost the case.",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:55:33"
+                            },
+                            {
+                                "id":  63,
+                                "page":  "about",
+                                "section":  "story-para2",
+                                "content_type":  "text",
+                                "content":  "He is experience to render advice and due diligence services on critical legal issues, as well as protect the interests of the clients based on proactive, precautionary and alternative legal measures.",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:55:33"
+                            },
+                            {
+                                "id":  64,
+                                "page":  "services",
+                                "section":  "service-1-title",
+                                "content_type":  "text",
+                                "content":  "Intellectual Property Litigation (IPR)",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 08:53:11"
+                            },
+                            {
+                                "id":  65,
+                                "page":  "services",
+                                "section":  "service-1-desc",
+                                "content_type":  "text",
+                                "content":  "Protecting trademarks, copyrights, patents, and intellectual assets through legal action, dispute resolution, enforcement, and defense against infringement claims.",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 08:53:13"
+                            },
+                            {
+                                "id":  66,
+                                "page":  "services",
+                                "section":  "service-1-point-1",
+                                "content_type":  "text",
+                                "content":  "Trademark Protection",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 09:15:50"
+                            },
+                            {
+                                "id":  67,
+                                "page":  "services",
+                                "section":  "service-1-point-2",
+                                "content_type":  "text",
+                                "content":  "Patent Defence",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 09:15:50"
+                            },
+                            {
+                                "id":  68,
+                                "page":  "services",
+                                "section":  "service-1-point-3",
+                                "content_type":  "text",
+                                "content":  "Copyright Security",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 09:15:50"
+                            },
+                            {
+                                "id":  69,
+                                "page":  "services",
+                                "section":  "service-1-point-4",
+                                "content_type":  "text",
+                                "content":  "IP Enforcement",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 09:15:50"
+                            },
+                            {
+                                "id":  70,
+                                "page":  "services",
+                                "section":  "service-1-image",
+                                "content_type":  "image",
+                                "content":  "",
+                                "image":  "/images/1778492027090-636580376.png",
+                                "updated_at":  "2026-05-11 09:33:47"
+                            },
+                            {
+                                "id":  71,
+                                "page":  "services",
+                                "section":  "service-3-title",
+                                "content_type":  "text",
+                                "content":  "Real Estate RERA",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 10:17:15"
+                            },
+                            {
+                                "id":  72,
+                                "page":  "services",
+                                "section":  "service-3-image",
+                                "content_type":  "image",
+                                "content":  "",
+                                "image":  "/images/1778495053900-728688342.png",
+                                "updated_at":  "2026-05-11 10:24:13"
+                            },
+                            {
+                                "id":  77,
+                                "page":  "home",
+                                "section":  "stat-1-value",
+                                "content_type":  "text",
+                                "content":  "2+",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 11:56:38"
+                            },
+                            {
+                                "id":  78,
+                                "page":  "home",
+                                "section":  "stat-1-label",
+                                "content_type":  "text",
+                                "content":  "Years Experience",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 11:56:38"
+                            },
+                            {
+                                "id":  79,
+                                "page":  "home",
+                                "section":  "stat-2-value",
+                                "content_type":  "text",
+                                "content":  "1000+",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 11:56:38"
+                            },
+                            {
+                                "id":  80,
+                                "page":  "home",
+                                "section":  "stat-2-label",
+                                "content_type":  "text",
+                                "content":  "Cases Won",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 11:56:38"
+                            },
+                            {
+                                "id":  81,
+                                "page":  "home",
+                                "section":  "stat-3-value",
+                                "content_type":  "text",
+                                "content":  "98%",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 11:56:38"
+                            },
+                            {
+                                "id":  82,
+                                "page":  "home",
+                                "section":  "stat-3-label",
+                                "content_type":  "text",
+                                "content":  "Client Satisfaction",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 11:56:38"
+                            },
+                            {
+                                "id":  83,
+                                "page":  "home",
+                                "section":  "about-snippet",
+                                "content_type":  "text",
+                                "content":  "Amit Kumar is a law professional with more than 7 years of experience in dynamic environments with adaptability to the ever-changing demands of the legal field. Optimistic and confident in the courtroom, leveraging excellent argumentation techniques that boost the case.\nAppeared before various district courts of Delhi/NCR, NGT, Consumer Courts, High Courts, NCLT, NCLAT, RERA, REAT and the Supreme Court of India to represent the clients in different legal matters and also extended to drafting applications under Section 252 of Companies Act 2013 to request the revival of companies.",
+                                "image":  null,
+                                "updated_at":  "2026-05-11 12:26:40"
+                            },
+                            {
+                                "id":  87,
+                                "page":  "services",
+                                "section":  "service-1-tagline",
+                                "content_type":  "text",
+                                "content":  "IP Protection \u0026 Enforcement",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  88,
+                                "page":  "services",
+                                "section":  "service-1-icon",
+                                "content_type":  "text",
+                                "content":  "??",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  98,
+                                "page":  "services",
+                                "section":  "service-3-desc",
+                                "content_type":  "text",
+                                "content":  "Expert guidance on Real Estate Regulatory Authority (RERA) matters including property disputes, registration, and compliance.",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  99,
+                                "page":  "services",
+                                "section":  "service-3-tagline",
+                                "content_type":  "text",
+                                "content":  "Property Law",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  100,
+                                "page":  "services",
+                                "section":  "service-3-icon",
+                                "content_type":  "text",
+                                "content":  "??",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  101,
+                                "page":  "services",
+                                "section":  "service-3-point-1",
+                                "content_type":  "text",
+                                "content":  "RERA Registration",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  102,
+                                "page":  "services",
+                                "section":  "service-3-point-2",
+                                "content_type":  "text",
+                                "content":  "Property Disputes",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  103,
+                                "page":  "services",
+                                "section":  "service-3-point-3",
+                                "content_type":  "text",
+                                "content":  "Compliance Advisory",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  104,
+                                "page":  "services",
+                                "section":  "service-3-point-4",
+                                "content_type":  "text",
+                                "content":  "Buyer Protection",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  105,
+                                "page":  "services",
+                                "section":  "service-4-title",
+                                "content_type":  "text",
+                                "content":  "Comprehensive Legal Services",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  106,
+                                "page":  "services",
+                                "section":  "service-4-desc",
+                                "content_type":  "text",
+                                "content":  "Cheque Bounce Cases, Recovery Suits, Injunction Matters, Cybercrime Complaints, Bail Matters, Consumer \u0026 Civil Litigation, Contract Drafting, Legal Research \u0026 Compliance, Business Registration \u0026 Taxation, Company Revival Applications and Miscellaneous Legal Applications.",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  107,
+                                "page":  "services",
+                                "section":  "service-4-image",
+                                "content_type":  "text",
+                                "content":  "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  108,
+                                "page":  "services",
+                                "section":  "service-4-tagline",
+                                "content_type":  "text",
+                                "content":  "Full Spectrum",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  109,
+                                "page":  "services",
+                                "section":  "service-4-icon",
+                                "content_type":  "text",
+                                "content":  "??",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  110,
+                                "page":  "services",
+                                "section":  "service-4-point-1",
+                                "content_type":  "text",
+                                "content":  "Criminal \u0026 Civil Litigation",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  111,
+                                "page":  "services",
+                                "section":  "service-4-point-2",
+                                "content_type":  "text",
+                                "content":  "Cybercrime \u0026 Bail Matters",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  112,
+                                "page":  "services",
+                                "section":  "service-4-point-3",
+                                "content_type":  "text",
+                                "content":  "Contract Drafting \u0026 Compliance",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  113,
+                                "page":  "services",
+                                "section":  "service-4-point-4",
+                                "content_type":  "text",
+                                "content":  "Taxation \u0026 Business Registration",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:35:47"
+                            },
+                            {
+                                "id":  114,
+                                "page":  "services",
+                                "section":  "service-2-title",
+                                "content_type":  "text",
+                                "content":  "Divorce \u0026 Family Law",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:36:38"
+                            },
+                            {
+                                "id":  115,
+                                "page":  "services",
+                                "section":  "service-2-desc",
+                                "content_type":  "text",
+                                "content":  "Providing legal support for divorce, alimony, child custody, and settlement disputes.",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:36:38"
+                            },
+                            {
+                                "id":  116,
+                                "page":  "services",
+                                "section":  "service-2-image",
+                                "content_type":  "text",
+                                "content":  "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:36:38"
+                            },
+                            {
+                                "id":  117,
+                                "page":  "services",
+                                "section":  "service-2-tagline",
+                                "content_type":  "text",
+                                "content":  "Family Matters",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:36:38"
+                            },
+                            {
+                                "id":  118,
+                                "page":  "services",
+                                "section":  "service-2-icon",
+                                "content_type":  "text",
+                                "content":  "???????????",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:36:38"
+                            },
+                            {
+                                "id":  119,
+                                "page":  "services",
+                                "section":  "service-2-point-1",
+                                "content_type":  "text",
+                                "content":  "Divorce Proceedings",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:36:38"
+                            },
+                            {
+                                "id":  120,
+                                "page":  "services",
+                                "section":  "service-2-point-2",
+                                "content_type":  "text",
+                                "content":  "Child Custody",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:36:38"
+                            },
+                            {
+                                "id":  121,
+                                "page":  "services",
+                                "section":  "service-2-point-3",
+                                "content_type":  "text",
+                                "content":  "Alimony \u0026 Maintenance",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:36:38"
+                            },
+                            {
+                                "id":  122,
+                                "page":  "services",
+                                "section":  "service-2-point-4",
+                                "content_type":  "text",
+                                "content":  "Settlement Disputes",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:36:38"
+                            },
+                            {
+                                "id":  123,
+                                "page":  "services",
+                                "section":  "tagline",
+                                "content_type":  "text",
+                                "content":  "What We Do",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:37:23"
+                            },
+                            {
+                                "id":  124,
+                                "page":  "services",
+                                "section":  "title",
+                                "content_type":  "text",
+                                "content":  "Our Legal Services",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:37:23"
+                            },
+                            {
+                                "id":  125,
+                                "page":  "services",
+                                "section":  "subtitle",
+                                "content_type":  "text",
+                                "content":  "Comprehensive legal solutions tailored to meet your specific needs with expertise and dedication",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:37:23"
+                            },
+                            {
+                                "id":  126,
+                                "page":  "services",
+                                "section":  "service-5-point-1",
+                                "content_type":  "text",
+                                "content":  "d u kd",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:40:52"
+                            },
+                            {
+                                "id":  127,
+                                "page":  "services",
+                                "section":  "service-5-point-2",
+                                "content_type":  "text",
+                                "content":  "suduin d",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:40:52"
+                            },
+                            {
+                                "id":  128,
+                                "page":  "services",
+                                "section":  "service-5-point-3",
+                                "content_type":  "text",
+                                "content":  "dnaud",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:40:52"
+                            },
+                            {
+                                "id":  129,
+                                "page":  "services",
+                                "section":  "service-5-point-4",
+                                "content_type":  "text",
+                                "content":  "dkbakb",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:40:52"
+                            },
+                            {
+                                "id":  130,
+                                "page":  "services",
+                                "section":  "service-5-desc",
+                                "content_type":  "text",
+                                "content":  "iasd sds",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:40:53"
+                            },
+                            {
+                                "id":  131,
+                                "page":  "services",
+                                "section":  "service-5-title",
+                                "content_type":  "text",
+                                "content":  "i snada",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:40:54"
+                            },
+                            {
+                                "id":  132,
+                                "page":  "services",
+                                "section":  "service-5-icon",
+                                "content_type":  "text",
+                                "content":  "",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:40:55"
+                            },
+                            {
+                                "id":  133,
+                                "page":  "services",
+                                "section":  "service-5-tagline",
+                                "content_type":  "text",
+                                "content":  "ish",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:40:56"
+                            },
+                            {
+                                "id":  134,
+                                "page":  "services",
+                                "section":  "service-5-image",
+                                "content_type":  "text",
+                                "content":  "TEST 1",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 19:40:58"
+                            },
+                            {
+                                "id":  135,
+                                "page":  "contact",
+                                "section":  "map-image",
+                                "content_type":  "image",
+                                "content":  "",
+                                "image":  "/images/1778962039645-972237122.png",
+                                "updated_at":  "2026-05-16 20:07:19"
+                            },
+                            {
+                                "id":  136,
+                                "page":  "contact",
+                                "section":  "map-address",
+                                "content_type":  "text",
+                                "content":  "Chamber No. 604, IIIrd Floor, Western Wing, Tis Hazari Courts, New Delhi-110054",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 20:07:51"
+                            },
+                            {
+                                "id":  137,
+                                "page":  "contact",
+                                "section":  "map-title",
+                                "content_type":  "text",
+                                "content":  "Click for Directions",
+                                "image":  null,
+                                "updated_at":  "2026-05-16 20:08:32"
+                            }
+                        ]
+}
