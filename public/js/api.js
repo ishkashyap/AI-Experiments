@@ -150,7 +150,7 @@ const API = {
 
     // Booking
     lookupBooking: (email, date) => apiClient(`/bookings/lookup?email=${encodeURIComponent(email)}&date=${encodeURIComponent(date)}`),
-    cancelBooking: (email, date) => apiClient('/bookings/cancel', { method: 'PUT', body: { email, date } }),
+    cancelBooking: (id) => apiClient('/bookings/cancel', { method: 'PUT', body: { id } }),
 
     // Contacts
     getContacts: () => apiClient('/contacts'),

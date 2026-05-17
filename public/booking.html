@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Consultation | Dejure Law Office</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/style.css">
     <script>
@@ -401,14 +402,14 @@
             if (!_cancelLookup) return;
             if (!confirm('Are you sure you want to cancel this appointment?')) return;
             try {
-                await API.cancelBooking(_cancelLookup.email, _cancelLookup.date);
+                await API.cancelBooking(_cancelLookup.id);
                 Toast.show('Appointment cancelled successfully', 'success');
                 document.getElementById('cancelResult')?.classList.add('hidden');
                 document.getElementById('cancelEmail').value = '';
                 document.getElementById('cancelDate').value = '';
                 _cancelLookup = null;
             } catch (err) {
-                Toast.show('Error cancelling booking', 'error');
+                Toast.show(err.message || 'Error cancelling booking', 'error');
             }
         }
     </script>
