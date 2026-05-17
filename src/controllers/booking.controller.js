@@ -67,16 +67,16 @@ const lookupBooking = async (req, res, next) => {
 
 const cancelBooking = async (req, res, next) => {
     try {
-        const { email, date } = req.body;
-        const existing = await query(
-            "SELECT * FROM bookings WHERE email = ? AND date = ? AND status != 'cancelled'",
-            [email, date]
-        );
+        const { id } = req.body;
+        const existing = await query("SELECT * FROM bookings WHERE id = ?", [id]);
         if (existing.length === 0) {
             return res.status(404).json({ success: false, error: 'Booking not found' });
         }
         const booking = existing[0];
-        await run("UPDATE bookings SET status = 'cancelled' WHERE id = ?", [booking.id]);
+        if (booking.status === 'cancelled') {
+            return res.status(400).json({ success: false, error: 'Booking is already cancelled' });
+        }
+        await run("UPDATE bookings SET status = 'cancelled' WHERE id = ?", [id]);
 
         try {
             await sendBookingStatusEmail(booking, 'cancelled');
