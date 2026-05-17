@@ -144,8 +144,8 @@ async function loadBookings() {
             return `<span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold ${map[status] || map.pending}">${status.charAt(0).toUpperCase() + status.slice(1)}</span>`;
         };
 
-        tbody.innerHTML = data.map(booking => `
-            <tr class="hover:bg-slate-50 transition-colors" data-created="${booking.created_at}" data-message="${(booking.message || '').replace(/"/g, '&quot;')}">
+        tbody.innerHTML = data.map((booking, idx) => `
+            <tr class="hover:bg-slate-50 transition-colors">
                 <td class="px-4 py-4">
                     <div class="font-medium text-slate-900">${booking.name}</div>
                     <div class="text-xs text-slate-500">${booking.email}</div>
@@ -159,16 +159,24 @@ async function loadBookings() {
                 <td class="px-4 py-4 text-xs text-slate-500">${new Date(booking.created_at).toLocaleDateString()} <span class="text-slate-400">${new Date(booking.created_at).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'})}</span></td>
                 <td class="px-4 py-4 text-center">${statusBadge(booking.status)}</td>
                 <td class="px-4 py-4 text-center">
-                    <button onclick="viewBookingDetails(${booking.id}, '${(booking.name || '').replace(/'/g, "\\'")}', '${(booking.email || '').replace(/'/g, "\\'")}', '${(booking.phone || '').replace(/'/g, "\\'")}', '${(booking.service || '').replace(/'/g, "\\'")}', '${(booking.date || '').replace(/'/g, "\\'")}', '${(booking.time || '').replace(/'/g, "\\'")}', '${(booking.status || '').replace(/'/g, "\\'")}', '${(booking.message || '').replace(/'/g, "\\'")}', '${booking.created_at}')" class="text-navy hover:text-slate-600 font-medium text-sm">View Details</button>
+                    <button onclick="openBookingDetail(${idx})" class="text-navy hover:text-slate-600 font-medium text-sm">View Details</button>
                 </td>
             </tr>
         `).join('');
+
+        window._bookingsCache = data;
     } catch (err) {
         console.error(err);
     }
 }
 
 let currentBookingId = null;
+
+function openBookingDetail(idx) {
+    const booking = window._bookingsCache?.[idx];
+    if (!booking) return;
+    viewBookingDetails(booking.id, booking.name, booking.email, booking.phone, booking.service, booking.date, booking.time, booking.status, booking.message, booking.created_at);
+}
 
 document.getElementById('bookingDateFilter')?.addEventListener('change', loadBookings);
 document.getElementById('bookingSortOrder')?.addEventListener('change', loadBookings);
