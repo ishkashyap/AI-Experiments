@@ -11,5 +11,6 @@ router.put('/cancel', bookingController.cancelBooking);
 // Protected routes
 router.get('/', authenticateToken, bookingController.getBookings);
 router.put('/:id/status', authenticateToken, bookingController.updateBookingStatus);
+router.delete('/:id', authenticateToken, bookingController.deleteBooking);
 
 module.exports = router;

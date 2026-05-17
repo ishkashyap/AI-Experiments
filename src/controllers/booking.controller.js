@@ -90,10 +90,23 @@ const cancelBooking = async (req, res, next) => {
     }
 };
 
+const deleteBooking = async (req, res, next) => {
+    try {
+        const result = await run("DELETE FROM bookings WHERE id = ?", [req.params.id]);
+        if (result.changes === 0) {
+            return res.status(404).json({ success: false, error: 'Booking not found' });
+        }
+        res.json({ success: true, message: 'Booking deleted' });
+    } catch (err) {
+        next(err);
+    }
+};
+
 module.exports = {
     getBookings,
     createBooking,
     updateBookingStatus,
     lookupBooking,
-    cancelBooking
+    cancelBooking,
+    deleteBooking
 };

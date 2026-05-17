@@ -159,7 +159,8 @@ async function loadBookings() {
                 <td class="px-4 py-4 text-xs text-slate-500">${new Date(booking.created_at).toLocaleDateString()} <span class="text-slate-400">${new Date(booking.created_at).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'})}</span></td>
                 <td class="px-4 py-4 text-center">${statusBadge(booking.status)}</td>
                 <td class="px-4 py-4 text-center">
-                    <button onclick="openBookingDetail(${idx})" class="text-navy hover:text-slate-600 font-medium text-sm">View Details</button>
+                    <button onclick="openBookingDetail(${idx})" class="text-navy hover:text-slate-600 font-medium text-sm">View</button>
+                    <button onclick="deleteBooking(${booking.id}, ${idx})" class="text-red-600 hover:text-red-800 font-medium text-sm ml-2">Delete</button>
                 </td>
             </tr>
         `).join('');
@@ -230,8 +231,44 @@ async function saveBookingStatusFromModal() {
     try {
         await API.updateBookingStatus(currentBookingId, status);
         Toast.show('Booking status updated', 'success');
-        loadBookings();
+
+        // Update cache and DOM row without reloading everything
+        const cache = window._bookingsCache || [];
+        const idx = cache.findIndex(b => b.id === currentBookingId);
+        if (idx !== -1) {
+            cache[idx].status = status;
+            const rows = document.querySelectorAll('#bookingsList tr');
+            const row = rows[idx];
+            if (row) {
+                const badgeMap = {
+                    pending: 'bg-amber-100 text-amber-800',
+                    confirmed: 'bg-blue-100 text-blue-800',
+                    completed: 'bg-green-100 text-green-800',
+                    cancelled: 'bg-red-100 text-red-800'
+                };
+                const cells = row.cells;
+                if (cells[4]) {
+                    cells[4].innerHTML = `<span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold ${badgeMap[status] || badgeMap.pending}">${status.charAt(0).toUpperCase() + status.slice(1)}</span>`;
+                }
+            }
+        }
+
         closeBookingDetail();
+    } catch (err) {
+        console.error(err);
+    }
+}
+
+async function deleteBooking(id, idx) {
+    if (!confirm('Delete this booking?')) return;
+    try {
+        await API.deleteBooking(id);
+        Toast.show('Booking deleted', 'success');
+        // Remove row from DOM and cache
+        const rows = document.querySelectorAll('#bookingsList tr');
+        if (rows[idx]) rows[idx].remove();
+        const cache = window._bookingsCache || [];
+        cache.splice(idx, 1);
     } catch (err) {
         console.error(err);
     }

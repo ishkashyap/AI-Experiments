@@ -126,6 +126,7 @@ const API = {
     getBookings: () => apiClient('/bookings'),
     createBooking: (data) => apiClient('/bookings', { method: 'POST', body: data }),
     updateBookingStatus: (id, status) => apiClient(`/bookings/${id}/status`, { method: 'PUT', body: { status } }),
+    deleteBooking: (id) => apiClient(`/bookings/${id}`, { method: 'DELETE' }),
 
     // Content
     getContent: () => apiClient('/website-content'),
