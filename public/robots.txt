@@ -4,3 +4,7 @@ Disallow: /admin.html
 Disallow: /api/
 
 Sitemap: https://dejurelawoffice.com/sitemap.xml
+
+Allow: /court-fee-calculator.html
+Allow: /privacy-policy.html
+Allow: /terms-of-service.html

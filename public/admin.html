@@ -168,6 +168,9 @@
                 <button onclick="showTab('announcements')" id="tab-announcements" class="tab-btn pb-4 font-semibold text-lg text-gray-400 hover:text-navy">
                     📢 Announcements
                 </button>
+                <button onclick="showTab('calculator')" id="tab-calculator" class="tab-btn pb-4 font-semibold text-lg text-gray-400 hover:text-navy">
+                    🧮 Calculator
+                </button>
                 <button onclick="showTab('footer')" id="tab-footer" class="tab-btn pb-4 font-semibold text-lg text-gray-400 hover:text-navy">
                     👣 Footer
                 </button>
@@ -804,6 +807,47 @@
                         </thead>
                         <tbody id="announcementList"></tbody>
                     </table>
+                </div>
+            </div>
+
+            <!-- Calculator Tab -->
+            <div id="panel-calculator" class="tab-panel hidden">
+                <div class="mb-10">
+                    <h2 class="font-serif text-4xl font-bold text-navy">Court Fee Calculator Page</h2>
+                    <p class="text-gray-600 mt-2">Edit the sidebar content on the Court Fee Calculator page</p>
+                </div>
+                <div class="glass-card p-8 md:p-10 rounded-2xl shadow-xl">
+                    <h3 class="font-serif text-2xl font-bold text-navy mb-6">📋 Sidebar Content</h3>
+                    <div class="grid grid-cols-1 gap-6 mb-8">
+                        <div>
+                            <label class="block text-navy font-semibold mb-2">Title</label>
+                            <div class="flex gap-2">
+                                <input type="text" id="calcSidebarTitle" placeholder="Need Legal Assistance?" class="input-premium flex-1 px-4 py-3 rounded-lg">
+                                <button type="button" onclick="saveCalcField('title', 'calcSidebarTitle', 'Title')" class="btn-premium px-4 py-2 rounded-lg text-sm">Save</button>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-navy font-semibold mb-2">Description</label>
+                            <div class="flex gap-2">
+                                <textarea id="calcSidebarDesc" rows="3" placeholder="Our experienced legal team can help you..." class="input-premium flex-1 px-4 py-3 rounded-lg resize-none"></textarea>
+                                <button type="button" onclick="saveCalcField('desc', 'calcSidebarDesc', 'Description')" class="btn-premium px-4 py-2 rounded-lg text-sm self-start">Save</button>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-navy font-semibold mb-2">Button Text</label>
+                            <div class="flex gap-2">
+                                <input type="text" id="calcSidebarBtn" placeholder="Book Consultation" class="input-premium flex-1 px-4 py-3 rounded-lg">
+                                <button type="button" onclick="saveCalcField('btn', 'calcSidebarBtn', 'Button Text')" class="btn-premium px-4 py-2 rounded-lg text-sm">Save</button>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-navy font-semibold mb-2">Phone Number</label>
+                            <div class="flex gap-2">
+                                <input type="text" id="calcSidebarPhone" placeholder="+91 98765 43210" class="input-premium flex-1 px-4 py-3 rounded-lg">
+                                <button type="button" onclick="saveCalcField('phone', 'calcSidebarPhone', 'Phone Number')" class="btn-premium px-4 py-2 rounded-lg text-sm">Save</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
