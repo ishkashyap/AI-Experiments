@@ -431,6 +431,7 @@ function showTab(tabName) {
         loadContactOfficeDetails();
     }
     
+    else if (tabName === 'calculator') loadCalculatorContent();
     else if (tabName === 'footer') loadFooterSettings();
     else if (tabName === 'announcements') loadAnnouncements();
     else if (tabName === 'blogs') loadBlogs();
@@ -1130,6 +1131,37 @@ async function saveSingleField(page, section, elementId, label) {
     }
 }
 
+
+// Calculator Page Functions
+async function saveCalcField(section, elementId, label) {
+    try {
+        const content = document.getElementById(elementId).value;
+        const formData = new FormData();
+        formData.append('page', 'calculator');
+        formData.append('section', section);
+        formData.append('content_type', 'text');
+        formData.append('content', content);
+        await API.createContent(formData);
+        Toast.show(label + ' saved successfully', 'success');
+    } catch (err) {
+        console.error(err);
+        Toast.show('Error saving ' + label, 'error');
+    }
+}
+
+async function loadCalculatorContent() {
+    try {
+        const response = await API.getContent();
+        const items = response.data || [];
+        const calcItems = items.filter(i => i.page === 'calculator');
+        calcItems.forEach(item => {
+            const el = document.getElementById('calcSidebar' + item.section.charAt(0).toUpperCase() + item.section.slice(1));
+            if (el) el.value = item.content || '';
+        });
+    } catch (err) {
+        console.error(err);
+    }
+}
 
 // Individual Footer Field Save Functions
 async function saveFooterAddress() { await saveSingleField('global', 'footer-address', 'footerAddress', 'Footer Address'); }

@@ -157,6 +157,9 @@ const API = {
     createContact: (data) => apiClient('/contacts', { method: 'POST', body: data }),
     deleteContact: (id) => apiClient(`/contacts/${id}`, { method: 'DELETE' }),
 
+    // Reports
+    downloadReport: (data) => apiClient('/reports/download-request', { method: 'POST', body: data }),
+
     // Home Page
     getHomePage: () => apiClient('/website-content/admin/home'),
     updateHomePage: (formData) => apiClient('/website-content/admin/home/update', { method: 'POST', body: formData })
